@@ -32,7 +32,6 @@ function prompt() {
 }
 
 process.on("exit", function (params) {
-  console.log(process.argv)
   process.stdout.write(`\n\n\n good job \n`);
 });
 
